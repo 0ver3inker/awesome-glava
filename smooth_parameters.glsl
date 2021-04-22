@@ -9,7 +9,7 @@
 
 /* The type of formula to use for weighting values when smoothing.
    Possible values:
-   
+
    - circular     heavily rounded points
    - sinusoidal   rounded at both low and high weighted values
                     like a sine wave
@@ -18,7 +18,7 @@
 #define ROUND_FORMULA sinusoidal
 
 /* The sampling mode for processing raw FFT input:
-   
+
    - average     averages all the inputs in the sample range for
                    a given point. Produces smooth output, but peaks
                    are not well represented
@@ -62,7 +62,7 @@
 
 /* Gravity step, higher values means faster drops. The step is applied
    in a rate independant method like so:
-   
+
    val -= (gravitystep) * (seconds per update) */
 #request setgravitystep 4.2
 

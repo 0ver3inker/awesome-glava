@@ -5,4 +5,3 @@
 #request addxwinstate "skip_pager"
 #request addxwinstate "pinned"
 #request setclickthrough true
-
